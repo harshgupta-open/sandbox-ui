@@ -39,7 +39,7 @@ const DeleteStatusCodePopUp = ({ onClose, record }) =>  {
         </div>
         <h2>Delete</h2>
         <form onSubmit={handleSubmitDELETE}>
-          <p>Are you sure You want delete this StatusCode {record}</p>
+          <p>Are you sure You want delete this StatusCode id {record}</p>
           <div className='popup-footer'>
           <button type="submit" className='btn btn-primary'style={{marginLeft:'90px'}}>Yes</button>
           <button type="button" className='btn btn-danger' onClick={onClose}>No</button></div>
